@@ -12,8 +12,7 @@ Original Wisconsin Breast Cancer Database from: UC Irvine Machine Learning Repos
 Pandas functions for description of the data was used to get an idea of how the values are distributed.
 Data is categorical so a couple descriptive graphs were made:
 
- - ![histograms](https://user-images.githubusercontent.com/80008461/174682516-e2228b23-9919-4b4e-a1a0-aae0b1b5a5bf.png)
- - Histograms with density distribution for each features. With the exception of clump thickness and class, in general, the features are right-skewed.
+ > ![histograms](https://user-images.githubusercontent.com/80008461/174682516-e2228b23-9919-4b4e-a1a0-aae0b1b5a5bf.png) Histograms with density distribution for each features. With the exception of clump thickness and class, in general, the features are right-skewed.
 
 
 - ![pmf_plots](https://user-images.githubusercontent.com/80008461/174682607-4b30b886-d297-4106-a3c9-8ec6584497a9.png)
