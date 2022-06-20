@@ -24,5 +24,5 @@ Data is categorical so a couple descriptive graphs were made:
 > ![poisson_comp_plots](https://user-images.githubusercontent.com/80008461/174682879-8cfe8448-056f-4f46-90b3-1bfd195b657d.png) Comparing distribution of score/values to Poisson distribution for roughly the same amount of randomply generated values.
 
 
-> ![heatmap_counts_plots](https://user-images.githubusercontent.com/80008461/174682970-ff6b1a86-9c5c-4f86-9b83-9c18a87ab937.png) Heatmap of the counts per score for each feature
+> ![heatmap_counts_plots](https://user-images.githubusercontent.com/80008461/174682970-ff6b1a86-9c5c-4f86-9b83-9c18a87ab937.png) Heatmap of the counts per score for each feature. 1 and 2 appear to be the most common values per feature, except for class since the only possible scores were 2 and 4. In that case, 2 was more frequent than 4.
 
