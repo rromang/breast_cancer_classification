@@ -19,10 +19,10 @@ Data is categorical so a couple descriptive graphs were made:
 
 > ![cdf_plots](https://user-images.githubusercontent.com/80008461/174682689-1ebdd3a9-d37a-44af-8cfb-0b0ac9bc8303.png) Cumulative distribution plots for each feature.
 
-> ![violin_plots](https://user-images.githubusercontent.com/80008461/174682742-65939387-fe20-456f-a676-2feab325848b.png) Violin plots aggregated by class. For the majority of features the most probable values/categories for the observtions are low numbers between 1 and 3 with the exception of class, which only has 2 values. For class, the most probable value is 2 or benign with about 60% of the data falling into that category. Aggregating the data based on class, each feature shows a more spread distribution when the class is malignant (or 4) while the majority of the values/categories for class 2 tend to be below 5 for all features.
+>  ![violin_plots](https://user-images.githubusercontent.com/80008461/174850993-de25c925-c6b5-4a91-ad41-edf046cef6e3.png) Violin plots aggregated by class. For the majority of features the most probable values/categories for the observtions are low numbers between 1 and 3 with the exception of class, which only has 2 values. For class, the most probable value is 2 or benign with about 60% of the data falling into that category. Aggregating the data based on class, each feature shows a more spread distribution when the class is malignant (or 4) while the majority of the values/categories for class 2 tend to be below 5 for all features.
+>  ![box_plots](https://user-images.githubusercontent.com/80008461/174851065-7befccff-7da4-44e0-b75b-74649ea151df.png) Given the spread of values, boxplots are fairly difficult to visualize the data properly. Violin plots allow for more effective visualization.
 
 > ![poisson_comp_plots](https://user-images.githubusercontent.com/80008461/174682879-8cfe8448-056f-4f46-90b3-1bfd195b657d.png) Comparing distribution of score/values to Poisson distribution for roughly the same amount of randomply generated values.
-
 
 > ![heatmap_counts_plots](https://user-images.githubusercontent.com/80008461/174682970-ff6b1a86-9c5c-4f86-9b83-9c18a87ab937.png) Heatmap of the counts per score for each feature. 1 and 2 appear to be the most common values per feature, except for class since the only possible scores were 2 and 4. In that case, 2 was more frequent than 4.
 
